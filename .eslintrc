@@ -1,0 +1,17 @@
+{
+    "extends": "airbnb",
+    "env": {
+      "jest": true,
+      "node": true,
+      "browser": true
+    },
+    "settings": {
+      "import/extensions": [".js"]
+    },
+    "rules": {
+      "import/no-extraneous-dependencies": ["error", { "devDependencies": ["/*", "**/*.config.js", "**/*.test.js", "**/*.spec.jsx"]}],
+      "linebreak-style": 0,
+      "max-len": [0, 140, 2],
+      "import/prefer-default-export ": "off"
+    }
+  }
