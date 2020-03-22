@@ -4,16 +4,18 @@
   "description": "The goal of the exercise is to create component that displays a list of test takers (test takers can be seen as students, users), with the following constraints :",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.19.2",
     "css-loader": "^3.4.2",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.16.0",
+    "file-loader": "^6.0.0",
     "script-loader": "^0.7.2",
     "style-loader": "^1.1.3",
     "webpack": "^4.42.0",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-loader": "^2.1.2",
-    "eslint-plugin-import": "^2.16.0"
+    "webpack-dev-server": "^3.10.3"
   },
   "devDependencies": {},
   "scripts": {
