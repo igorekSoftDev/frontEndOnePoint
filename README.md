@@ -15,3 +15,7 @@ The goal of the exercise is to create component that displays a list of test tak
  - The source code must be written in plain JavaScript, CSS and HTML only. No library nor framework is allowed however you can use any tooling library. For example, you can't use Angular, React or jQuery but you can use webpack, browserify, eslint.
 
  - The component should work on the last versions Firefox, Chrome and Safari (including for mobile).
+
+ To start project please execute following commands:
+    npm install
+    npm run dev

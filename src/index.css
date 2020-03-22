@@ -1,0 +1,98 @@
+[data-app] {
+  padding: 50px;
+}
+
+.header {
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header button{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.rowWrapper {
+  margin-bottom: 20px;
+}
+
+.rowMain {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid grey;
+}
+
+.index {
+  width: 10%;
+}
+
+.signature, .email, .login {
+  width: 30%;
+}
+
+.signature, .email, .index, .login {
+  border-right: 1px solid grey;
+  height: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+
+.rowAdvanced {
+  display: none;
+  margin-top: 10px;
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.rowAdvanced.active {
+  display: block;
+}
+
+.avatar {
+  height: 200px;
+  display: block;
+  margin-right: 30px;
+}
+
+.btnShowMore {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+
+.btnShowMore:focus {
+  outline: none;
+}
+
+.infoWrapper p{
+  margin-top: 0;
+}
+
+.infoWrapper p span{
+  font-weight: bold;
+}
+
+.sortBy {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+[data-pagination="pagination"] {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+[data-pageButton] {
+  cursor: pointer;
+}
+
+[data-active] {
+  color:white;
+  background-color: blue;
+}
